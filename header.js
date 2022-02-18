@@ -1,9 +1,15 @@
+jQuery('document').ready(function($){
 
-var menubtn = document.getElementsByClassName("menu-icon");
-var menu = document.getElementsByClassName("navigation ul");
+var menuBtn = $('.menu-icon'),
+    menu = $('.navigation ul');
 
-menubtn.addEventListener("click", addClase );
+    menuBtn.click(function(){
 
-function addClase(){
-    
-}
+        if (menu.hasClass('show')){
+            menu.removeClass('show')
+        } else{
+            menu.addClass('show');
+        }
+        
+    });
+});

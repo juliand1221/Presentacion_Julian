@@ -45,9 +45,8 @@ h1 {
       flex-wrap: wrap;
 }
 
-.logo {
-  letter-spacing: 15px;
-  font-size: 1.2em;
+.circular-square {
+  width: 3rem;
 }
 
 .menu-icon {
@@ -80,11 +79,20 @@ h1 {
   padding-top: 12rem;
 }
 
+.foto {
+  border-radius: 30%;
+  width: 10rem;
+}
+
 .footer {
-  background: #f2f2f2;
+  background: black;
   padding: 4rem 0;
   text-align: center;
   margin-top: 6rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
