@@ -142,7 +142,9 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-
+}
+.copyright {
+    color: #c7c7c7;
 }
 
 
@@ -175,5 +177,13 @@ h1 {
     }
     .navigation ul li a:hover {
         background: #4a4a4a;
+    }
+
+////////FOOTER//////////
+    .container-footer{
+        flex-wrap: wrap;
+    }
+    .column2, .column3 {
+        margin-top: 40px;
     }
 }
